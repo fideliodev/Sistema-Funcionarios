@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+.fa-group{
+    margin-right: 12px;
+}
+.header-system, .fa-group{
+    border: none;
+    background: #4169E1;
+}
+
+
+/*teste */
+.sistema-cadastro-main, .toast-add{
+    display: flex;
+    margin-top: 10%;
+    justify-content: center;
+
+
+}
+
+.sistema-cadastro-main{
+    z-index: -1;
+}
+
+.sistema-type, .offcanvas-body, .offcanvas{
+    background: #4169E1ee;
+    border-radius: 5%;
+    text-align: center;
+
+}
+
+.historico-mudancas, .historico-funcionarios{
+    color: #4169E1;
+    border-radius: 5%;
+    margin: 15% 10px 40px 20px;
+    text-align: left;
+}
+
+.historico-mudancas{
+    background: #ffffff;
+    color: #fff;
+    display: row;
+    justify-content: space-between;
+    border: 1px solid #fff;
+    padding: 20px;
+
+}
+
+.historico-mudancas-off{
+    visibility: hidden;
+}
+
+.input-funcionario{
+    margin: 20px;
+}
+
+.loginWrite,.botaoSubmitLogin{
+    padding: 10px;
+    border: 1px solid #4169E1;
+    
+
+}
+
+ul{
+    display: flex;
+    align-items: center;
+  justify-content: center;
+}
+
+li{
+    list-style: none;
+}
+
+
+input{
+    padding: 4% 3%;
+    border-radius: 5%;
+    border: none;
+    text-align: center;
+}
+
+
+.input-Login{
+    background-color: #4169E1;
+    border-radius: 5%;
+    text-align: center;
+    padding: 10%;
+    
+}
+.botaoSubmit{
+    padding: 4%;
+    margin: 4px;
+    border: 1px solid #ffffff;
+    border-radius: 9%;
+    cursor: pointer;
+}
+
+.btn-demitir{
+    display: block;
+    background-color: #4169E1;
+    border: none;
+    padding: 10px;
+    margin: 2%;
+   border-radius: 5px;
+
+}
+
+ .toast-demitido{
+    visibility: hidden;
+    margin: 0%;
+}
+
+.toast-demitido-on {
+    visibility: visible;
+    border: 1px solid #4169E1;
+    text-align: center;
+    background:  #ffffff ;
+    border-radius: 30%;
+}
+
+
+  .warpper{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+  }
+
+  .tabs{
+    background: #ffffff;
+    display: flex;
+    justify-content: space-between;
+ }
+
+  .tab{
+    cursor: pointer;
+    width: 40%;
+    margin:0px 2px;
+    display:inline-block;
+    color:rgb(0, 0, 0);
+    border-radius:3px 3px 0px 0px;
+    text-align: center;
+
+  }
+
+  .panel{
+ margin-top: 10%;
+    display:none;
+   color: black;
+
+  }
+
+  .radio{
+    display:none;
+  }
+  #one:checked ~ .panels #one-panel,
+  #two:checked ~ .panels #two-panel{
+    display:block
+    
+  }
+  #one:checked ~ .tabs #one-tab,
+  #two:checked ~ .tabs #two-tab{
+    border-top: 3px solid #000000;
+  }
+
+

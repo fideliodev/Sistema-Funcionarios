@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sujiro CORP</title>
+    <link rel="stylesheet" href="src/styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="src/img/Emoticons.gif" type="image/x-icon" >
+    <meta name="theme-color" content="#4169E1">
+</head>
+<body>
+
+<header class="header-system">
+    <ul>
+        <li class="nome-header"><a href="index.html" style="text-decoration: none; font-size: 5vh; color: #fff;">Sistema de funcionários</a></li>
+      <li >
+    </ul>
+</header>
+
+    <main class="sistema-cadastro-main">
+      <div class="sistema-type">
+        <br>
+
+          <div class="input-funcionario">
+          <h1 style="color: #fff;">PAINEL</h1>
+          <p style="color: #fff;">coloque o nome/cpf para adicionar </p>
+          <br>
+          <br>
+         <form id="formFuncionario">
+           <input type="text" placeholder="nome" name="contentname" class="funcionarioNome" maxlength="16">
+           <input type="number" placeholder="cpf" name="contentnumber" class="funcionarioID" max="10" >          
+           <button class="botaoSubmit">Adicionar!</button>
+         </form>
+          <hr>
+          </div>
+
+
+          <div class="toast-demitido">
+            <h1  style="color: #87CEFA;" ></h1>&nbsp;Funcionario removido com sucesso!
+          </div>
+
+<div class="historico-mudancas">
+      <div class="warpper">
+            <input class="radio" id="one" name="group" type="radio" checked>
+            <input class="radio" id="two" name="group" type="radio">
+
+        <div class="tabs">
+               <label class="tab" id="one-tab" for="one">Funcionario</label>
+               <p style="color: #000000;">|</p>
+               <label class="tab" id="two-tab" for="two">Demitidos</label>
+        </div>
+
+        <div class="panels">
+
+        <div class="panel" id="one-panel">
+        <div class="conteudo-contratado-1">
+                  <h2 class="conteudo-contratado"></h1>
+       </div>
+       
+       </div>
+      <div class="panel" id="two-panel">
+      <div class="conteudo-demitido-1">
+                  <h5 class="conteudo-demitido"></h1>
+     </div>
+    </div>
+            
+    </div>
+    </div>
+</div>
+
+</div>
+
+  </main>
+    <script src="src/main/main.js"></script>
+</body>
+</html>
